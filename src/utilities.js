@@ -13,7 +13,7 @@ let currentCardType = null;
 
 
 const setCardType = (cardType) => {
-    if (cardType == currentCardType) { return; }
+    if (cardType === currentCardType) { return; }
     currentCardType = cardType;
 }
 

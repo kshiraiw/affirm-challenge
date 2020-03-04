@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  max-height:100px;
   pointer-events: none;
 }
 
@@ -26,6 +26,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.payments {
+  width: 80%;
+  margin: 20px;
 }
 
 @keyframes App-logo-spin {
